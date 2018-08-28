@@ -1,0 +1,88 @@
+body{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif !important;
+	color: #777777;
+	background-image: url('../images/round.png'); ;	
+	/**position:relative; question for sticky footer**/
+}
+
+/**HEADER**/
+#header-nav{
+	background-color: #ffffff;
+	border-bottom: 1px solid #cccccc;
+}
+.navbar{padding:0;}
+
+h1.navbar-brand{
+	font-size:2em;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	font-weight:bold;
+	color:#ffffff;
+	text-shadow: 1px 1px 1px #222;
+	background-color: #4aaaa5;
+	margin-bottom:0;
+	padding:25px;
+}
+ul.navbar{list-style: none;}
+ul.navbar a:visited, ul.navbar a:link {
+	text-decoration: none;
+	color: #777777;
+    text-align: right;
+}
+ul.navbar a span {
+    margin-left: 15px;
+}
+ul.navbar a:hover{
+color:#4aaaa5;
+}
+#mainContent{
+	margin-top: 25px;
+	padding: 38px 35px;
+	background-color: #ffffff;
+	border:1px solid #dddddd;
+	height: 100%;
+}
+h2{
+	color: #4aaaa5;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #cccccc;
+}
+img.myPhoto{width:300px;}
+
+p.myText{text-align: justify;}
+
+footer{
+	width: 100%;
+	height: 35px;
+	background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    position: absolute;
+    bottom: 0;
+}
+/*******PORTFOLIO**********/
+figure{position:relative;}
+figcaption {
+    background-color: rgba(74,170,165,0.5);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+/****CONTACT***/
+.btn-primary  {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+.btn-primary:hover{
+	 background-color:#666666;
+    border-color:#666666;
+}
+
+
+
+
+
+
+
+
+
