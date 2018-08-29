@@ -59,6 +59,10 @@ footer{
     bottom: 0;
 }
 /*******PORTFOLIO**********/
+.img-fluid {
+    width: 100%;
+    height: 288px;
+}
 figure{position:relative;}
 figcaption {
     background-color: rgba(74,170,165,0.5);
