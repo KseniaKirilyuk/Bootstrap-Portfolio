@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!--<meta charset="viewport">-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<title>Bootsrtap</title>
+	<style>
+		.row{
+			margin-bottom: 15px
+		}
+		.row div{
+			background: pink;
+			border: 2px solid lightgreen;
+		}
+	</style>
+</head>
+<body>
+	<div class="container"><!--must be inside container or conatiner-fluid-->
+		<div class="row"><!--creates horizonatal groups ofcolums.  which means that the columns collapse and interact with each other as a group but independently from columns in another row. The row class also creates a negative margin, to counteract the padding that the container class sets up-->
+			<div class="col-md-4"> col-size-screen with range identifier-span- 1-12 elements</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 col-sm-6">Col1</div>
+			<div class="col-md-4 col-sm-6">Col2</div>
+			<div class="col-md-4 col-sm-6">Col3</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-sm-6">Col1</div>
+			<div class="col-md-4 col-sm-6">Col2</div>
+			<div class="col-md-4 col-sm-6">Col3</div>
+		</div>	
+
+		<div class="row">
+			<div class="col-sm-6">Col1</div><!--все что больше xs будет такой же раскладки-->
+			<div class="col-sm-6">Col2</div>
+			<div class="col-sm-6">Col3</div>
+		</div>
+	</div>
+</body>
+</html>
+<!--  navbar for color, container for content -->
+
+
+
+
+
